@@ -13,7 +13,10 @@ namespace GitHub
             Console.WriteLine("Hello world");
             Console.WriteLine("Hello from the other side");
             Console.WriteLine("Hello from visual studio");
+            Tervitaja.Tervita("Siim");
             Console.ReadKey();
+
+            
         }
     }
 }
