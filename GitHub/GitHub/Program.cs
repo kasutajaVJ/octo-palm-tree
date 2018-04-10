@@ -14,6 +14,7 @@ namespace GitHub
             Console.WriteLine("Hello from the other side");
             Console.WriteLine("Hello from visual studio");
             Tervitaja.Tervita("Siim");
+            Tervitaja.Tervita(new String[] { "Kalle", "Malle", "Salle", "Valle"});
             Console.ReadKey();
 
             

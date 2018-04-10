@@ -12,5 +12,12 @@ namespace GitHub
         {
            Console.WriteLine("Hello " + nimi);
         }
+
+        internal static void Tervita(string[] nimiMas)
+        {
+            foreach(string nimi in nimiMas){
+                Tervita(nimi);
+            }
+        }
     }
 }
